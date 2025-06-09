@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="nav-container">
+            <nav>
+                <a href="#" class="logo"> AbuBakar</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger-menu">☰</button>
+            </nav>
+        </nav>
+    </header>
+    <!-- HomePage Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <div class="content">
+                <h1 class="hero-heading">Hi, I'm AbuBakar</h1>
+                <h3 class="professional-headline">Front-end Web Developer</h3>
+                <p class="hero-paragraph">
+                    I'm a passionate web developer creating beautiful and functional websites.
+                   <span class="desktop-only"> I specialize in front-end development with a focus on user experience.</span>
+                </p>
+                <nav class="cta-buttons">
+                    <a href="#Project" ><button class="cta-button cta-button-primary">View My Work</button></a>
+                    <a href="#contact-form"><button class="cta-button cta-button-secondary">Contact Me</button></a>
+                </nav>
+            </div>    
+            <div class="my-image">
+                <img src="my pic.jpeg" alt="Your Name">
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-me" id="about">
+        <div class="about-me-container">
+            <article class="about-me-content">
+                <div class="profile-image">
+                    <img src="my pic.jpeg" alt="Your Name" class="profile-photo">
+                </div>
+                <div class="about-me-text">
+                    <h2 class="section-title">About Me</h2>
+                    <h3 class="professional-headline">Full Stack Developer & UI/UX Enthusiast</h3>
+                    <p class="introduction">
+                        I'm  a passionate Web Developer with expertise in front-end development and creating beautiful and functional web applications. 
+                        With over X years of experience,
+                        <span class="desktop-only"> I specialize in creating modern, responsive, and user-friendly websites that combine technical excellence
+                             with engaging user experiences.</span>
+                    </p>
+                    <div class="skills-list">
+                        <h4>Areas of Expertise</h4>
+                        <ul class="skill-tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>UI/UX</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="cta-section">
+                        <a href="Muhammad Abu Bakar - Resume.pdf" download class="cta-buton">Download Resume</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <hr>
+    <!-- Skills Section (mostly made by JS) -->
+    <section class="skills-section" id="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <!-- JavaScript will dynamically add skill cards here -->
+        </div>
+    </section>
+    <hr>
+    <!-- Project Section -->
+    <h2 style="text-align: center; margin: 3rem; font-size: 3em;">My Projects</h2>
+    <section class="project-gallery" id="Project">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 1" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">E-commerce Platform</h3>
+                <p class="project-description">A full-stack e-commerce solution with React and Node.js.</p>
+            </div>
+        </article>
+        <!-- Project Card 2 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 2" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Social Media Dashboard</h3>
+                <p class="project-description">Analytics dashboard for social media metrics.</p>
+            </div>
+        </article>
+        <!-- Project Card 3 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 3" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Mobile Fitness App</h3>
+                <p class="project-description">Cross-platform mobile app for fitness tracking.</p>
+            </div>
+        </article>
+        <!-- Project Card 4 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 3" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Mobile Fitness App</h3>
+                <p class="project-description">Cross-platform mobile app for fitness tracking.</p>
+            </div>
+        </article>
+        <!-- Project Card 5 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 3" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Mobile Fitness App</h3>
+                <p class="project-description">Cross-platform mobile app for fitness tracking.</p>
+            </div>
+        </article>
+        <!-- Project Card 6 -->
+        <article class="project-card">
+            <img src="my pic.jpeg" alt="Project 3" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Mobile Fitness App</h3>
+                <p class="project-description">Cross-platform mobile app for fitness tracking.</p>
+            </div>
+        </article>
+    </section>
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 class="project-title">Project Details</h2>
+            <img src="my pic.jpeg" alt="Project Detail" style="width: 100%; height: auto; margin: 1rem 0;">
+            <p class="project-description">Detailed description of the project goes here.
+            This is where you can explain the technologies used, features implemented,and the challenges overcome.
+            </p>
+            <a href="https://github.com/M-Abakar" class="visit-project">Visit Project</a>
+        </div>
+    </div>
+    
+    <!-- Contact Form -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="contactForm" class="form">
+                    <!-- Name Input -->
+                    <div class="form-group">
+                        <label for="name">Name <span class="star">*</span></label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form-control"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+                    <!-- Email Input -->
+                    <div class="form-group">
+                        <label for="email">Email <span class="star">*</span></label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form-control"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+                    <!-- Message Input -->
+                    <div class="form-group">
+                        <label for="message">Message <span class="star">*</span></label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form-control"
+                            placeholder="Enter your message"
+                            required
+                            rows="5"
+                        ></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary"
+                        id="submitBtn"
+                    >
+                        Send Message
+                    </button>
+                    <!-- Success Message -->
+                    <div class="success-message" id="successMessage">
+                        Message sent successfully!
+                    </div>
+                    <!-- Error Message -->
+                    <div class="error-message" id="errorMessage">
+                        Something went wrong. Please try again.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Footer Section HTML Structure -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Contact Me</h3>
+                <p>Email: mabubakarbutt649@gmail.com</p>
+                <p>Phone: +92 324 5708792</p>
+                <p>Location: Jhelum Punjab, Pakistan</p>
+            </div>
+            <!-- Quick Links -->
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <h3>Follow Me</h3>
+                <ul class="social-icons">
+                    <li><a href="https://github.com/M-Abakar" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/muhammad-abu-bakar-384b77318/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href=mailto:mabubakarbutt649@gmail.com target="_blank"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="https://www.instagram.com/abakr_137/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Copyright Notice -->
+        <div class="copyright">
+            <p>&copy; 2023 AbuBakar. All rights reserved.</p>
+        </div>
+    </footer>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
